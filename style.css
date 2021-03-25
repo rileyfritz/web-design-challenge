@@ -3,18 +3,21 @@
     padding: 5px;
     margin: 5px;
     font-weight: 800;
-    color: #fff;
+    color: #92FBD9;
+    font-size: x-large;
+    text-align: center;
   }
+  .textbox {
+    min-height: 50px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 200;
+    color: black;
+    font-size: medium;
+    text-align: left;
+  }  
   
-  .skyblue {
-    background: deepskyblue;
-  }
-  
-  .purple {
-    background: rebeccapurple;
-  }
-  
-  .red {
-    background: indianred;
+  .grey {
+    background: grey;
   }
   
