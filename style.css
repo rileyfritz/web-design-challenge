@@ -7,7 +7,7 @@
     min-height: 50px;
 
   }
-  .box2 {
+.box2 {
     width: 300px;
     height: 300px;
     background-color: white;
@@ -16,21 +16,29 @@
     min-height: 50px;
   }  
   
-  .text {
+.text {
     font-size: small;
     color: black;
     text-align: left;
   
   }
-  .grey {
+.grey {
     background: grey;
   }
-  .img {
+.img {
     border: 2px solid black;
   }
-  .center {
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     /* width: 50%; */
+  }
+.imgbox {
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    min-height: 50px;
   }
