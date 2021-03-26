@@ -36,9 +36,59 @@
   }
 .imgbox {
     width: 800px;
-    height: 500px;
+    height: 800px;
     background-color: white;
     padding: 10px;
     margin: 10px;
     min-height: 50px;
   }
+.vis_headers_l {
+    font-size: medium;
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+}
+.vis_headers_r {
+  font-size: medium;
+  color: black;
+  text-align: left;
+  margin-right: 10px;
+  
+}
+
+.tg  {
+      border-collapse:collapse;
+      border-spacing:0;
+      background-color: white;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;}
+
+.tg td{
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  background-color: white;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+  }
+.tg th{
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+
+.tg .tg-de2y{
+  border-color:#333333;
+  text-align:center;
+  vertical-align:top}
+
+  @media only screen and (max-width: 768px) {
+    .tg td {
+      display: block;
+    }
