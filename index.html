@@ -9,8 +9,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-
+<body style="background-color: lightgrey">
   <nav class="navbar navbar-expand-md navbar-light" style="background-color:  #92FBD9;">
     <a class="navbar-brand" href="/">Latitude</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -43,7 +42,49 @@
     </div>
   </nav>
 
-<div class="container border">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="box1">
+          <h1>Latitude Weather Analysis</h1>
+          <hr>
+          <img alt="Figure 1" src="/assets/Fig1.png" align="left" style="height:150px" />
+          <p class="text">The purpose of this project was to analyze how weather changes as you get closer to the
+            equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset
+            on over 500 cities.</p>
+          <p class="text">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs
+            latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humiditiy. This site
+            provides the source data and visualizations created as part of the analysis, as well as explanations and
+            descriptions of any trends and correlations witnessed.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="box2">
+          <h1>Visualizations</h1>
+          <hr>
+          <a href="/html/plots/plot1.html">
+            <img alt="Figure 1" src="/assets/Fig1.png" align="left" style="height: 75px;">
+          </a>
+          <a href="/html/plots/plot2.html">
+            <img alt="Figure 2" src="/assets/Fig2.png" align="right" style="height: 75px;">
+          </a>
+          <br>
+          <br>
+          <br>
+          <a href="/html/plots/plot3.html">
+            <img alt="Figure 3" src="/assets/Fig3.png" align="left" style="height: 75px;">
+          <a href="/html/plots/plot4.html">
+            <img alt="Figure 4" src="/assets/Fig4.png" align="right" style="height: 75px;">
+          </a>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--row columns method that wasnt working properly  -->
+  <!-- <div class="container border">
   <div class="row row-cols-1">
     <div class="col-12 border">
       <div class="">Latitude Weather Analysis</div>
@@ -54,9 +95,9 @@
     </div>
     
   </div>
-</div>
+</div> -->
 
-<!-- <div class="col-lg-4">
+  <!-- <div class="col-lg-4">
   <div class="box grey">Visualizations</div>
 </div> -->
 
@@ -69,6 +110,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>
